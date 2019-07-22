@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "course_online-tvOS.app"
-               BlueprintName = "course_online-tvOS"
-               ReferencedContainer = "container:course_online.xcodeproj">
+               BuildableName = "app-tvOS.app"
+               BlueprintName = "app-tvOS"
+               ReferencedContainer = "container:app.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "course_online-tvOSTests.xctest"
-               BlueprintName = "course_online-tvOSTests"
-               ReferencedContainer = "container:course_online.xcodeproj">
+               BuildableName = "app-tvOSTests.xctest"
+               BlueprintName = "app-tvOSTests"
+               ReferencedContainer = "container:app.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "course_online-tvOSTests.xctest"
-               BlueprintName = "course_online-tvOSTests"
-               ReferencedContainer = "container:course_online.xcodeproj">
+               BuildableName = "app-tvOSTests.xctest"
+               BlueprintName = "app-tvOSTests"
+               ReferencedContainer = "container:app.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "course_online-tvOS.app"
-            BlueprintName = "course_online-tvOS"
-            ReferencedContainer = "container:course_online.xcodeproj">
+            BuildableName = "app-tvOS.app"
+            BlueprintName = "app-tvOS"
+            ReferencedContainer = "container:app.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "course_online-tvOS.app"
-            BlueprintName = "course_online-tvOS"
-            ReferencedContainer = "container:course_online.xcodeproj">
+            BuildableName = "app-tvOS.app"
+            BlueprintName = "app-tvOS"
+            ReferencedContainer = "container:app.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "course_online-tvOS.app"
-            BlueprintName = "course_online-tvOS"
-            ReferencedContainer = "container:course_online.xcodeproj">
+            BuildableName = "app-tvOS.app"
+            BlueprintName = "app-tvOS"
+            ReferencedContainer = "container:app.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

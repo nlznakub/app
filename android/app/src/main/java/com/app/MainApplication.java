@@ -1,4 +1,4 @@
-package com.course_online;
+package com.app;
 
 import android.app.Application;
 
