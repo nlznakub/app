@@ -7,9 +7,9 @@
  */
 
 import React, { Component } from 'react';
-import { createStackNavigator } from 'react-navigation';
+import { createAppContainer } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 import { observer, Provider } from 'mobx-react';
-import store from './src/mobx/store';
 import SplashActivity from './src/scene/SplashActivity';
 
 const Route = createStackNavigator({
@@ -17,15 +17,21 @@ const Route = createStackNavigator({
     screen: SplashActivity,
     navigationOptions: { header: null }
   },
+}, {
+  initialRouteName: 'Splaz',
 })
 
+const AppContainer = createAppContainer(Route)
+
 @observer
-export default class App extends Component {
+class App extends Component {
   render() {
     return (
-      <Provider store={store}>
-        <Route />
+      <Provider>
+        <AppContainer />
       </Provider>
     );
   }
 }
+
+export default App

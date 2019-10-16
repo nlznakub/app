@@ -1,6 +1,6 @@
 // ผ่าน Login
 import React, { Component } from 'react'
-import { Text, View, Platform, StatusBar } from 'react-native'
+import { Text, View, Platform, StatusBar } from 'react-native';
 import { normalize } from './functions';
 import { color } from './resource';
 import { width, height } from './functions/normalize';
